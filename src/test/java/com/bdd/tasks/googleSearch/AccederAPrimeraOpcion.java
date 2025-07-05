@@ -5,6 +5,8 @@ import net.serenitybdd.screenplay.Task;
 import net.serenitybdd.screenplay.Tasks;
 import net.serenitybdd.screenplay.actions.Click;
 
+import java.util.concurrent.TimeUnit;
+
 public class AccederAPrimeraOpcion implements Task {
 
     public static AccederAPrimeraOpcion resultado() {

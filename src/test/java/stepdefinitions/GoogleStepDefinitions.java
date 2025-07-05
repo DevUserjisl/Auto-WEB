@@ -3,6 +3,7 @@ package stepdefinitions;
 import com.bdd.questions.ValidarRedireccion;
 import com.bdd.tasks.googleSearch.AccederAPrimeraOpcion;
 import com.bdd.tasks.googleSearch.EscribirPalabra;
+import com.bdd.tasks.googleSearch.PresionarBotonBuscar;
 import com.bdd.utils.ConfigHelper;
 import io.cucumber.java.Before;
 import io.cucumber.java.es.Cuando;
@@ -45,6 +46,9 @@ public class GoogleStepDefinitions {
     public void escribirTextoEnGoogle(String texto) {
         theActorInTheSpotlight().attemptsTo(
                 EscribirPalabra.enGoogle(texto)
+        );
+        theActorInTheSpotlight().attemptsTo(
+                PresionarBotonBuscar.enGoogle()
         );
     }
 

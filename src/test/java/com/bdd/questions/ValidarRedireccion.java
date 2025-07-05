@@ -5,6 +5,8 @@ import net.serenitybdd.screenplay.Question;
 import net.thucydides.core.annotations.Managed;
 import org.openqa.selenium.WebDriver;
 
+import java.util.concurrent.TimeUnit;
+
 public class ValidarRedireccion implements Question<Boolean> {
 
     public static ValidarRedireccion fueraDeGoogle() {
