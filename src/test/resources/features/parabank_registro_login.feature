@@ -1,4 +1,4 @@
-Feature:Registro y login en la web de PARABANK
+Feature:Registro y login en la web PARABANK
 
   @RegistroParaBank
   Scenario Outline: Un usuario se registra exitosamente y accede a su cuenta
