@@ -1,7 +1,7 @@
 Feature:Registro y login en la web PARABANK
 
   @RegistroParaBank
-  Scenario Outline: Un usuario se registra exitosamente y accede a su cuenta
+  Scenario Outline:Un usuario se registra exitosamente y accede a su cuenta
     Given que el usuario accede a la web de Parabank
     When navega al formulario de registro de nuevos usuarios
     And proporciona sus datos personales:
